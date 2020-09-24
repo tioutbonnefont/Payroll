@@ -43,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\BasPlusCommissionEmployee.cs" />
+    <Compile Include="Models\CommissionEmployee.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\HourlyEmployee.cs" />
+    <Compile Include="Models\SalariedEmployee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
